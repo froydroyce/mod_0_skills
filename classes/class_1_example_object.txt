@@ -2,6 +2,8 @@ Ramen
 
 food_name (tonkotsu, shoyu, miso)
 happy_hour (true, false)
+closing_hour (10, 11)
 
-enter_order tonkotsu
-serve_food tonkotsu
+enter_order (tonkotsu; happy hour: true) 
+serve_food (tonkotsu)
+take_payment (tonkotsu; happy hour: true)
