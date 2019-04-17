@@ -1,0 +1,11 @@
+Server
+
+Attributes:
+Name (string)
+shift_length (integer)
+Open_tab (boolean)
+
+Methods:
+clock_in (this will begin the shift and modify the shift_length and enter the name)
+log_in (this will log the server into the POS system using their name)
+send_order (this will tell the restaurant which food items to make and change the value of open_tab, and use the name of the server who put in the order)
