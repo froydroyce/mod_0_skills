@@ -6,8 +6,8 @@ happy_hour (boolean)
 closing_hour (datetime)
 
 Methods:
-enter_order (this will tell the restaurant which food items to make)(food, happy_hour)
-serve_food (this will bring the food to the customer)(food)
-take_payment (this will close an open order recdeived from a customer)(food, happy_hour)
+enter_order (this will tell the restaurant which food items to make)(food_name; happy_hour)
+serve_food (this will bring the food to the customer)(food_name)
+take_payment (this will close an open order recdeived from a customer)(food_name; happy_hour)
 
 
