@@ -1,0 +1,7 @@
+Ramen
+
+food_name (tonkotsu, shoyu, miso)
+happy_hour (true, false)
+
+enter_order tonkotsu
+serve_food tonkotsu
