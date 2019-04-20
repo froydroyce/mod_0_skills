@@ -1,9 +1,11 @@
 Ramen
 
-food_name (tonkotsu, shoyu, miso)
-happy_hour (true, false)
-closing_hour (10, 11)
+food_name (tonkotsu, shoyu, miso) [array]
+happy_hour (true, false) [boolean]
+price (15.99) [float] 
 
-enter_order (tonkotsu; happy hour: true) 
-serve_food (tonkotsu)
-take_payment (tonkotsu; happy hour: true)
+enter_order (food_name(tonkotsu)) ; Using the enter_order method would use variables from the food_name array and check the values from the happy_hour boolean. If happy_hour returns true, the price float will be modified. 
+
+serve_food (food_name(tonkotsu)) ; using the serve_food method would use variable from the food_name array
+
+print_check (food_name(tonkotsu)) ; Using the print_check method would use variables from the food_name array and check the values from the happy_hour boolean. If happy_hour returns true, the price float will be modified. 
