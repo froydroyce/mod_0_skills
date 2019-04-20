@@ -1,9 +1,12 @@
-Sejin
+Employee
 
-Name (Sejin)
-shift_length (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
-open_tab (true; false)
+time_in (datetime)
+time_out (datetime)
+shift_length (8.5)
 
-clock_in (sejin; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
-log_in (sejin)
-send_order (sejin; open_tab: true)
+
+clock_in (time_in( 04/19/2019 12:00 PM )) Using the clock_in method would modify the datetime in time_in 
+
+clock_out (time_out( 04/19/2019 8:30 PM )) Using the clock_out method would modify the date_time in time_out and modify the float in shift_length
+
+edit_time (shift_length( 7 )) Using the edit_time mehthod would modify the datetime in time_in and/or time_out causing the float in shift_length to be modified
